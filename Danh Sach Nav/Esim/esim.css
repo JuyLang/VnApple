@@ -1,0 +1,310 @@
+.container-signinPC {
+    width: 100%;
+    margin: 44px auto;
+    /* height: 1000px; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.signin-box-PC {
+    position: relative;
+    /* margin-left: 90px;
+    margin-top: 60px; */
+    display: flex;
+    justify-content: center;
+}
+
+.container-inputPC {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-siginPC {
+    width: 476px;
+}
+
+.container-inputPCregis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-errorDangki {
+    margin-right: 250px;
+}
+
+.message-errorPassDangki {
+    margin-right: 250px;
+}
+
+.container-inputPCregis>input {
+    margin: 0 50px 10px 0;
+    border-radius: 12px;
+    outline: royalblue;
+    border: 1px solid #d2d2d7;
+    padding: 18px 16px 16px 16px;
+    height: 55px;
+    width: 400px;
+    margin-left: 70px;
+}
+
+.container-inputPC>input {
+    margin: 0 50px 10px 0;
+    border-radius: 12px;
+    outline: royalblue;
+    border: 1px solid #d2d2d7;
+    padding: 18px 16px 16px 16px;
+    height: 55px;
+}
+
+.btn-detail-siginPC {
+    width: 85%;
+    height: 55px;
+    background-color: #0071E3;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 80px 13px 0;
+}
+
+.title-siginPC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-creatPC {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.title-creatPC>h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    /* font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif; */
+    padding-bottom: 36px;
+    padding-top: 34px;
+    color: #fff;
+    position: absolute;
+    /* left: 0; */
+    top: 70px;
+}
+
+.title-siginPC>h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    /* font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif; */
+    padding-bottom: 36px;
+    padding-top: 34px;
+    color: #fff;
+    /* box-shadow: 10px #333; */
+}
+
+.detail-siginPC {
+    width: 500px;
+    position: absolute;
+    /* margin: auto; */
+    margin-left: 88px;
+    margin-top: 40px;
+    border: 1px solid transparent;
+    box-shadow: 5px 4px 0 4px rgb(0 0 0 / 30%);
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.07);
+}
+
+.title-end-siginPC {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    /* font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif; */
+    margin-top: 14px;
+    margin-bottom: 35px;
+    margin-right: 41px;
+    color: #fff;
+}
+
+.creat-idPC {
+    color: royalblue;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+
+/* .container-img-signinPC {
+    background-image: url("https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+} */
+
+.message-error {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.message-errorDangki {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.message-errorPassDangki2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn-regisPC {
+    width: 474px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 531px;
+}
+
+.message-errorDangki.off {
+    display: none;
+}
+
+.message-errorPassDangki2.off {
+    display: none;
+}
+
+.message-errorPassDangki2 {
+    margin-right: 180px;
+}
+
+.message-errorPassDangki2>i {
+    font-size: 12px;
+    color: #E30000;
+}
+
+.message-errorDangki>i {
+    font-size: 12px;
+    color: #E30000;
+}
+
+.message-error.off {
+    display: none;
+}
+
+.message-errorPass {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.message-errorPass.off {
+    display: none;
+}
+
+.message-errorPassDangki {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.message-errorPassDangki.off {
+    display: none;
+}
+
+.message-errorPassDangki>i {
+    font-size: 12px;
+    color: #E30000;
+}
+
+.message-errorPass>i {
+    font-size: 12px;
+    color: #E30000;
+}
+
+.message-error>i {
+    font-size: 12px;
+    color: #E30000;
+}
+
+.error {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #E30000;
+}
+
+.errorPass {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #E30000;
+}
+
+.errorPass2 {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #E30000;
+}
+
+#checkinput:focus {
+    border-color: #0071e3;
+    box-shadow: 0 0 0 4px rgb(0 125 250 / 60%);
+    outline: none;
+}
+
+#checkinputPass:focus {
+    border-color: #0071e3;
+    box-shadow: 0 0 0 4px rgb(0 125 250 / 60%);
+    outline: none;
+}
+
+.forgot-idPC>a {
+    text-decoration: none;
+}
+
+.creat-idPC {
+    margin-top: 12px;
+}
+
+.creat-idPC>a {
+    text-decoration: none;
+}
+
+.signin-box-PC.off {
+    display: none;
+}
+
+.regis-box-PC.off {
+    display: none;
+}
+
+.BoxCommit{
+    width: 500px;
+    margin: auto;
+    height: 150px;
+    background-color: rgb(139, 255, 30);
+    border-style:outset;
+    border: rgb(133, 141, 140) 5px solid;
+    font-size: 48px;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 140px;
+    margin-top: 150px;
+}
+.fa-check-circle{
+    font-weight: 550;
+    color: rgb(255, 0, 0);
+}
+.BoxCommit-p{
+    font-weight: 550;
+    color: rgb(247, 2, 2);
+}
+.BoxCommit{
+    position: absolute;
+    left: 36%;
+    top: 15%;
+    display: none;
+}
+.detail-siginPC{
+    display:block;
+}
