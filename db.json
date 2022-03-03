@@ -1,19 +1,14 @@
 {
-  "product": [],
+  "product": [
+  ],
   "user": [
     {
       "name": "admin",
       "password": "admin",
       "isActive": false,
       "id": 1
-    },
-    {
-      "name": "admins",
-      "password": "12345678",
-      "isActive": true,
-      "id": 2
     }
-   ],
+  ],
   "macbook": [
     {
       "tensanpham": "Macbook Air",

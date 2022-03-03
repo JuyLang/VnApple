@@ -202,37 +202,18 @@ fetch("http://localhost:3000/user")
     })
 
 
-let toTop = document.querySelector(".toTop");
-toTop.addEventListener("click", function () {
-
+const toTop = document.getElementsByClassName("toTop");
+toTop.addEventListener('click', function(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 })
+
 window.addEventListener("scroll", function() {
-    var x = pageYOffset;
+    let x = pageYOffset;
     if (x >= 12) {
         toTop.classList.remove("off")
     } else if (x <= 12) {
         toTop.classList.add("off")
       
-
-    }
-})
-var Team = []
-fetch('http://localhost:3000/students').then(function (response) {
-    return response.json()
-})
-.then(function (arraystudent){
-    arraystudent.sort((a, b) => {
-        return a.rank - b.rank;
-    });
-    for( let i = 0; i < arraystudent.length;i++){
-        for(let y = 1; y <= 5; y++){
-            if(arraystudent[i].rank == y){
-                if(arraystudent = Team[i]){
-                    Team.push(arraystudent[i])
-                }
-            }
-        }
     }
 })

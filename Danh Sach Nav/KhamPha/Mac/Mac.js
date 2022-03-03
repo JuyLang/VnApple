@@ -74,7 +74,7 @@ chooseIphone12pr.addEventListener("click", function(e) {
         }
     }
     checkName = "Macbook Pro 13";
-    checkPrice = "1299";
+    checkPrice = "1299$";
     checkUrlMac = "/images/khampha/macbook13pro.png";
 
 })
@@ -97,7 +97,7 @@ chooseIphone12.addEventListener("click", function(e) {
         checkColor = "Sliver"
     }
     checkName = "Macbook Air";
-    checkPrice = "999";
+    checkPrice = "999$";
     checkUrlMac = "/images/khampha/macbook13pro.png";
     
 })
@@ -131,7 +131,7 @@ macpropro.addEventListener("click", function(e) {
         }
     }
     checkName = "Macbook Pro 16";
-    checkPrice = "2999";
+    checkPrice = "2999$";
     checkUrlMac = "/images/khampha/macbook13-1.png"
 
 })
